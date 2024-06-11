@@ -1,0 +1,81 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@functions/*": [
+        "./src/utils/functions/*"
+      ],
+      "@generated/*": [
+        "./src/features/generated/*"
+      ],
+      "@hooks/*": [
+        "./src/utils/hooks/*"
+      ],
+      "@layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@modules/*": [
+        "./src/modules/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@services/*": [
+        "./src/features/services/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@utility-components/*": [
+        "./src/utils/components/*"
+      ],
+      "@widgets/*": [
+        "./src/features/widgets/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
