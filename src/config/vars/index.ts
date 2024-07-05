@@ -4,10 +4,10 @@ export const vars = {
   // Список ссылок: Начало
   links: {
     // "Написать нам" в шапке
-    writeUs: 'mailto:example@mail.ru',
+    writeUs: 'mailto:info@vesta-it.tech',
     // "Написать почта" в футере
-    writeMail: 'mailto:example@mail.ru',
-    telLink: 'tel:+79999999999',
+    writeMail: 'mailto:info@vesta-it.tech',
+    telLink: 'tel:+7-965-220-48-75',
   },
   // Список ссылок: Конец
 
