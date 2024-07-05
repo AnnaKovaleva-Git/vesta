@@ -7,7 +7,7 @@ export const vars = {
     writeUs: 'mailto:info@vesta-it.tech',
     // "Написать почта" в футере
     writeMail: 'mailto:info@vesta-it.tech',
-    telLink: 'tel:+7-965-220-48-75',
+    telLink: 'tel:+79652204875',
   },
   // Список ссылок: Конец
 
@@ -49,8 +49,8 @@ export const vars = {
       t4: 'Подбор IT персонала',
     },
     contacts: {
-      contactName: 'info@mail.ru',
-      telTitle: '+7-999-123-45-67',
+      contactName: 'info@vesta-it.tech',
+      telTitle: '+7-965-220-48-75',
     },
     about: {
       title: 'О компании',
