@@ -6,8 +6,8 @@ import Logo1 from '@config/logo/partners/1.svg'
 import Logo2 from '@config/logo/partners/2.svg'
 import Logo3 from '@config/logo/partners/3.svg'
 import Logo4 from '@config/logo/partners/4.svg'
-import Logo5 from '@config/logo/partners/5.svg'
-import Logo6 from '@config/logo/partners/6.svg'
+// import Logo5 from '@config/logo/partners/5.svg'
+// import Logo6 from '@config/logo/partners/6.svg'
 import S1 from '@config/logo/slogan/first.svg'
 import S2 from '@config/logo/slogan/second.svg'
 import S3 from '@config/logo/slogan/third.svg'
@@ -88,7 +88,7 @@ const Home = () => (
         paddingBottom: px2vw(72),
       }}>
       <div
-        className="flex items-center justify-center gap-4 overflow-y-hidden"
+        className="flex items-center justify-center gap-12 overflow-y-hidden"
         style={{
           width,
           minHeight: px2vw(32),
@@ -97,8 +97,8 @@ const Home = () => (
         <Logo2 style={{ height: px2vw(24) }} />
         <Logo3 style={{ height: px2vw(24) }} />
         <Logo4 style={{ height: px2vw(24) }} />
-        <Logo5 style={{ height: px2vw(24) }} />
-        <Logo6 style={{ height: px2vw(24) }} />
+        {/*<Logo5 style={{ height: px2vw(24) }} />*/}
+        {/*<Logo6 style={{ height: px2vw(24) }} />*/}
       </div>
     </div>
     {/*   Наши партнеры: Конец   */}
