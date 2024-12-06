@@ -51,6 +51,8 @@ export const vars = {
         contacts: {
             contactName: 'info@vesta-it.tech',
             telTitle: '+7-965-220-48-75',
+            inn: '9725074662',
+
         },
         about: {
             title: 'О компании',
