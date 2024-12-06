@@ -97,6 +97,15 @@ export const Footer: FC = React.memo(() => (
             {vars.text.contacts.telTitle}
           </Typography>
         </Link>
+          <Typography
+              typography="Body"
+              className="text-stroke hover:text-secondary-hover"
+              style={{
+                  fontSize: px2vw(18),
+                  fontWeight: 300,
+              }}>
+              {vars.text.contacts.inn}
+          </Typography>
       </div>
     </div>
   </footer>
