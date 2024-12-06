@@ -104,7 +104,7 @@ export const Footer: FC = React.memo(() => (
                   fontSize: px2vw(18),
                   fontWeight: 300,
               }}>
-              {vars.text.contacts.inn}
+              {`ИНН: ${vars.text.contacts.inn}`}
           </Typography>
       </div>
     </div>
